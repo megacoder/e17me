@@ -1,0 +1,5 @@
+#!/bin/sh
+export PATH="/opt/e17/bin:$PATH"
+export PYTHONPATH="/opt/e17/lib/python2.7/site-packages:$PYTHONPATH"
+export LD_LIBRARY_PATH="/opt/e17/lib:$LD_LIBRARY_PATH"
+eval -- "$@"
